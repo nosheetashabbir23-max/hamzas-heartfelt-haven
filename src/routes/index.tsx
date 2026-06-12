@@ -542,7 +542,7 @@ function BirthdayPage() {
           </button>
         </motion.div>
         <p className="mt-10 text-xs tracking-[0.4em] uppercase text-muted-foreground">
-          Made with ❤️ — for Hamza
+          {" "}
         </p>
       </section>
 
