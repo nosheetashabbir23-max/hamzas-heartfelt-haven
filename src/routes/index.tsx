@@ -346,9 +346,9 @@ function BirthdayPage() {
 
       {/* GALLERY */}
       <section id="gallery" className="relative z-10 px-6 py-24 max-w-6xl mx-auto">
-        <SectionTitle kicker="Memories" title="Hamza Through The Years 📸" />
+        <SectionTitle kicker="Memories" title="Photo Gallery📸" />
         <p className="text-center text-muted-foreground italic max-w-xl mx-auto -mt-6 mb-12">
-          "Har photo ek memory hai, aur har memory ki apni ek story."
+          Proof that I have a cool friend 😂
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {photos.map((p, i) => (
