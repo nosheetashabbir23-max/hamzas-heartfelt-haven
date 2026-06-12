@@ -538,7 +538,7 @@ function BirthdayPage() {
             }}
             className="mt-10 inline-flex items-center gap-2 rounded-full px-8 py-4 bg-gradient-to-r from-gold to-gold-soft text-ink font-medium hover:scale-105 transition-transform shadow-xl"
           >
-            🎆 Celebrate Again
+            🎆 Happy Birthdayyyyy ❤️
           </button>
         </motion.div>
         <p className="mt-10 text-xs tracking-[0.4em] uppercase text-muted-foreground">
