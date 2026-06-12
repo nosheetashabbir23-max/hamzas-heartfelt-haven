@@ -267,7 +267,7 @@ function BirthdayPage() {
           transition={{ delay: 0.2 }}
           className="text-sm tracking-[0.5em] uppercase text-gold mb-6"
         >
-          13 · 06 · 2004
+          13 · 06 · 01
         </motion.p>
 
         <motion.div initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.3, type: "spring" }}>
