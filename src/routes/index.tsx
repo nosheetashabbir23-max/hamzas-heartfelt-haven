@@ -33,30 +33,30 @@ export const Route = createFileRoute("/")({
 });
 
 const photos = [
-  { src: img1.url, caption: "Suit up, story on." },
-  { src: img7.url, caption: "Glow under the lights." },
-  { src: img4.url, caption: "The Akhroat, contemplating." },
-  { src: img2.url, caption: "Main character energy." },
-  { src: img8.url, caption: "Laugh first, explain later." },
-  { src: img6.url, caption: "Warm nights, warmer heart." },
-  { src: img3.url, caption: "Simple. Sincere. Sukoon." },
-  { src: img5.url, caption: "Khali kursi, full vibe." },
+  { src: img1.url, caption: "Khary to ese ho jese tumhari shadi hai 😂." },
+  { src: img7.url, caption: "paak Sar zameen sahd baad 😂." },
+  { src: img4.url, caption: "The Akhroat 😁" },
+  { src: img2.url, caption: "Beautyphul 🐵" },
+  { src: img8.url, caption: "Pory k Pory 32 Dant hain 😁 " },
+  { src: img6.url, caption: "Special bandy ny li hai akhir 👀" },
+  { src: img3.url, caption: "Seedhi kr lo gardan thak gaye hogy" },
+  { src: img5.url, caption: "Ehm Ehm 👀 " },
 ];
 
 const nicknames = [
-  { name: "Chotuu", emoji: "❤️", line: "Height se nahi, importance se measure kiya jata hai." },
-  { name: "Chipkaly", emoji: "🦎", line: "Har jagah appearance dene ki natural ability." },
-  { name: "Akhroat", emoji: "🌰", line: "Bahar se tough, andar se soft." },
-  { name: "Zakota Jin", emoji: "👻", line: "Jahan zaroorat na ho, wahan bhi achanak entry." },
+  { name: "Chotuu", emoji: "❤️", line: "Sawa saal bary hony se kuch nh hota ladlee 😁" },
+  { name: "Chipkaly", emoji: "🦎", line: "Sadgi chipkali or tum chipkaly 😋" },
+  { name: "Akhroat", emoji: "🌰", line: "Akhroat bana dia sadgi ny mere dost ko 🤧" },
+  { name: "Zakota Jin", emoji: "👻", line: "ye name is waja se k always avaliable for me 😁 " },
 ];
 
 const qualities = [
-  { t: "Kind Heart", e: "❤️", d: "Dusron ki care karta hai." },
-  { t: "Loyal Friend", e: "🤝", d: "Apne logon ke saath khara rehta hai." },
-  { t: "Simple Personality", e: "🌿", d: "Show-off se door rehta hai." },
+  { t: "Chotuu ho ", e: "❤️", d: "Dusron ki care karty ho" },
+  { t: "Take stand", e: "🤝", d: "Apne logon ke saath khara rehta hai." },
+  { t: "Simple Personality", e: "🌿", d: "Show-off se door rehta hai , one of the good qualities " },
   { t: "Hardworking", e: "🚀", d: "Apne goals ke liye mehnat karta hai." },
-  { t: "Respectful", e: "🌟", d: "Har kisi ko izzat deta hai." },
-  { t: "Funny Moments", e: "😂", d: "Kabhi kabhi bina intention ke bhi sab ko hasa deta hai." },
+  { t: "Respectful", e: "🌟", d: "Har kisi se achy se paitence se baat krty ho " },
+  { t: "Funny Moments", e: "😂", d: "Atleat mujhy sochna nh parta bolny se pehly tumary samny 😂" },
 ];
 
 const wishes = [
@@ -68,11 +68,11 @@ const wishes = [
 ];
 
 const timeline = [
-  { date: "13 June 2004", title: "The story begins", icon: "✨" },
-  { date: "School Days", title: "Learning, growing and making memories", icon: "📚" },
-  { date: "Teenage Years", title: "Dreams, goals and adventures", icon: "🌟" },
-  { date: "Today", title: "A wonderful person becoming even better", icon: "🎂" },
-  { date: "Future", title: "Success, happiness and maybe… Sadgi", icon: "💫" },
+  { date: "FEB 2024- 13 JUNE 2026", title: "Almost dahi saal se janty hain ek dosry ko or ek dafa larai nh hoi real wali 😭 laromgi ab se feilding set h tumari putar 😏", icon: "✨" },
+  { date: " ", title: " ", icon: "📚" },
+  { date: " ", title: "We have a lot of memories together. i wish agy bh esi banti rahy hassi khushi 😂", icon: "🌟" },
+  { date: " ", title: "height ka flex krty ho , itu s ehok itu se koi baat nh jawo aish kro , birthday jee lo apni zindagi 😊", icon: "🎂" },
+  { date: " ", title: "May Allah bless you with Success, happiness and maybe… Sadgi 👀❤", icon: "💫" },
 ];
 
 function useCountdown() {
