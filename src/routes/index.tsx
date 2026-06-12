@@ -374,7 +374,7 @@ function BirthdayPage() {
 
       {/* LETTER */}
       <section className="relative z-10 px-6 py-24 max-w-3xl mx-auto">
-        <SectionTitle kicker="From the heart" title="A Letter For Hamza 💌" />
+        <SectionTitle kicker="From the heart" title="Happy Birthday Hamza 💌" />
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -383,11 +383,11 @@ function BirthdayPage() {
         >
           <div className="absolute -top-3 -left-3 text-6xl text-gold/40 font-display select-none">"</div>
           <div className="space-y-5 text-base md:text-lg leading-relaxed text-foreground/90">
-            <p className="font-display text-2xl">Hamza,</p>
-            <p>Tum un logon me se ho jo bina zyada effort ke logon ke chehron par smile le aate hain. Tumhari simplicity, tumhari honesty aur tumhara caring nature tumhari sab se khoobsurat qualities hain.</p>
-            <p>Main dua karti hoon ke tumhari zindagi me hamesha sukoon, khushi, kamyabi aur ache log rahen.</p>
-            <p>Har saal tum aur zyada mature, successful aur khush bano.</p>
-            <p>Tumhari har mehnat rang laye aur tumhara har sapna poora ho.</p>
+            <p className="font-display text-2xl">Chirkuth,</p>
+            <p>Happy Birthday to you! May this special day of yours be filled with joy, laughter, and unforgettable moments. As you step into another year of your incredible journey, I hope all your dreams and aspirations come true. May the year ahead bring you success, good health, and endless happiness. Keep shining bright and spreading your warmth to everyone around you. Enjoy every moment of your day — you truly deserve it! 🎂🎉</p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
             <p className="text-gold-gradient text-2xl pt-2" style={{ fontFamily: "var(--font-script)" }}>
               Happy Birthday Chotuu ❤️
             </p>
