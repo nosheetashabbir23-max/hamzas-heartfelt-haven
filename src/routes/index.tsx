@@ -292,8 +292,7 @@ function BirthdayPage() {
           transition={{ delay: 1.2, duration: 1 }}
           className="mt-8 max-w-2xl text-base md:text-lg text-muted-foreground leading-relaxed italic"
         >
-          "13 June 2004 ko duniya ko ek aisa insan mila jo apni simplicity, kindness aur funny personality
-          ki wajah se sab ke dil me jagah bana leta hai."
+          "Happy Birthday! Thanks for always having my back. May this year bring you success, good health, and all the happiness you deserve."
         </motion.p>
 
         {/* Countdown */}
