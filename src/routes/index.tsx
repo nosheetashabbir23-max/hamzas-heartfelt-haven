@@ -424,7 +424,7 @@ function BirthdayPage() {
       <section className="relative z-10 px-6 py-24 max-w-3xl mx-auto">
         <div className="text-center mb-10">
           <div className="text-4xl mb-3">🌙 ✨ ⭐</div>
-          <h2 className="text-4xl md:text-5xl font-medium text-gold-gradient">Mission Sadgi 💫</h2>
+          <h2 className="text-4xl md:text-5xl font-medium text-gold-gradient">Mission Sadgi 👀💫</h2>
         </div>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
