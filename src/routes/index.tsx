@@ -521,7 +521,7 @@ function BirthdayPage() {
         >
           <Cake />
           <h2 className="mt-6 text-4xl md:text-6xl font-display text-gold-gradient">
-            Happy Birthday, Hamza. ❤️
+            Happy Birthday, Bawly ❤️
           </h2>
           <div className="gold-divider w-40 mx-auto my-8" />
           <p className="text-base md:text-lg leading-relaxed text-foreground/90 italic">
