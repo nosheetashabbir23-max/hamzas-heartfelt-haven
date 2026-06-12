@@ -497,7 +497,7 @@ function BirthdayPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="relative mb-10"
+              className={`relative mb-10 ${!t.date.trim() && !t.title.trim() ? "hidden" : ""}`}
             >
               <div className="absolute -left-[42px] md:-left-[58px] top-0 w-10 h-10 rounded-full glass flex items-center justify-center text-lg">
                 {t.icon}
