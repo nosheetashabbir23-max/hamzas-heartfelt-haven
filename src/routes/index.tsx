@@ -33,30 +33,30 @@ export const Route = createFileRoute("/")({
 });
 
 const photos = [
-  { src: img1.url, caption: "Suit up, story on." },
-  { src: img7.url, caption: "Glow under the lights." },
-  { src: img4.url, caption: "The Akhroat, contemplating." },
-  { src: img2.url, caption: "Main character energy." },
-  { src: img8.url, caption: "Laugh first, explain later." },
-  { src: img6.url, caption: "Warm nights, warmer heart." },
-  { src: img3.url, caption: "Simple. Sincere. Sukoon." },
-  { src: img5.url, caption: "Khali kursi, full vibe." },
+  { src: img1.url, caption: "Khary to ese ho jese tumhari shadi hai 😂." },
+  { src: img7.url, caption: "paak Sar zameen sahd baad 😂." },
+  { src: img4.url, caption: "The Akhroat 😁" },
+  { src: img2.url, caption: "Beautyphul 🐵" },
+  { src: img8.url, caption: "Pory k Pory 32 Dant hain 😁 " },
+  { src: img6.url, caption: "Special bandy ny li hai akhir 👀" },
+  { src: img3.url, caption: "Seedhi kr lo gardan thak gaye hogy" },
+  { src: img5.url, caption: "Ehm Ehm 👀 " },
 ];
 
 const nicknames = [
-  { name: "Chotuu", emoji: "❤️", line: "Height se nahi, importance se measure kiya jata hai." },
-  { name: "Chipkaly", emoji: "🦎", line: "Har jagah appearance dene ki natural ability." },
-  { name: "Akhroat", emoji: "🌰", line: "Bahar se tough, andar se soft." },
-  { name: "Zakota Jin", emoji: "👻", line: "Jahan zaroorat na ho, wahan bhi achanak entry." },
+  { name: "Chotuu", emoji: "❤️", line: "Sawa saal bary hony se kuch nh hota ladlee 😁" },
+  { name: "Chipkaly", emoji: "🦎", line: "Sadgi chipkali or tum chipkaly 😋" },
+  { name: "Akhroat", emoji: "🌰", line: "Akhroat bana dia sadgi ny mere dost ko 🤧" },
+  { name: "Zakota Jin", emoji: "👻", line: "ye name is waja se k always avaliable for me 😁 " },
 ];
 
 const qualities = [
-  { t: "Kind Heart", e: "❤️", d: "Dusron ki care karta hai." },
-  { t: "Loyal Friend", e: "🤝", d: "Apne logon ke saath khara rehta hai." },
-  { t: "Simple Personality", e: "🌿", d: "Show-off se door rehta hai." },
+  { t: "Chotuu ho ", e: "❤️", d: "Dusron ki care karty ho" },
+  { t: "Take stand", e: "🤝", d: "Apne logon ke saath khara rehta hai." },
+  { t: "Simple Personality", e: "🌿", d: "Show-off se door rehta hai , one of the good qualities " },
   { t: "Hardworking", e: "🚀", d: "Apne goals ke liye mehnat karta hai." },
-  { t: "Respectful", e: "🌟", d: "Har kisi ko izzat deta hai." },
-  { t: "Funny Moments", e: "😂", d: "Kabhi kabhi bina intention ke bhi sab ko hasa deta hai." },
+  { t: "Respectful", e: "🌟", d: "Har kisi se achy se paitence se baat krty ho " },
+  { t: "Funny Moments", e: "😂", d: "Atleat mujhy sochna nh parta bolny se pehly tumary samny 😂" },
 ];
 
 const wishes = [
@@ -68,11 +68,11 @@ const wishes = [
 ];
 
 const timeline = [
-  { date: "13 June 2004", title: "The story begins", icon: "✨" },
-  { date: "School Days", title: "Learning, growing and making memories", icon: "📚" },
-  { date: "Teenage Years", title: "Dreams, goals and adventures", icon: "🌟" },
-  { date: "Today", title: "A wonderful person becoming even better", icon: "🎂" },
-  { date: "Future", title: "Success, happiness and maybe… Sadgi", icon: "💫" },
+  { date: "FEB 2024- 13 JUNE 2026", title: "Almost dahi saal se janty hain ek dosry ko or ek dafa larai nh hoi real wali 😭 laromgi ab se feilding set h tumari putar 😏", icon: "✨" },
+  { date: " ", title: " ", icon: "📚" },
+  { date: " ", title: "We have a lot of memories together. i wish agy bh esi banti rahy hassi khushi 😂", icon: "🌟" },
+  { date: " ", title: "height ka flex krty ho , itu s ehok itu se koi baat nh jawo aish kro , birthday jee lo apni zindagi 😊", icon: "🎂" },
+  { date: " ", title: "May Allah bless you with Success, happiness and maybe… Sadgi 👀❤", icon: "💫" },
 ];
 
 function useCountdown() {
@@ -267,7 +267,7 @@ function BirthdayPage() {
           transition={{ delay: 0.2 }}
           className="text-sm tracking-[0.5em] uppercase text-gold mb-6"
         >
-          13 · 06 · 2004
+          13 · 06 · 01
         </motion.p>
 
         <motion.div initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.3, type: "spring" }}>
@@ -292,8 +292,7 @@ function BirthdayPage() {
           transition={{ delay: 1.2, duration: 1 }}
           className="mt-8 max-w-2xl text-base md:text-lg text-muted-foreground leading-relaxed italic"
         >
-          "13 June 2004 ko duniya ko ek aisa insan mila jo apni simplicity, kindness aur funny personality
-          ki wajah se sab ke dil me jagah bana leta hai."
+          "Happy Birthday! Thanks for always having my back. May this year bring you success, good health, and all the happiness you deserve."
         </motion.p>
 
         {/* Countdown */}
@@ -347,9 +346,9 @@ function BirthdayPage() {
 
       {/* GALLERY */}
       <section id="gallery" className="relative z-10 px-6 py-24 max-w-6xl mx-auto">
-        <SectionTitle kicker="Memories" title="Hamza Through The Years 📸" />
+        <SectionTitle kicker="Memories" title="Photo Gallery📸" />
         <p className="text-center text-muted-foreground italic max-w-xl mx-auto -mt-6 mb-12">
-          "Har photo ek memory hai, aur har memory ki apni ek story."
+          Proof that I have a cool friend 😂
         </p>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {photos.map((p, i) => (
@@ -375,7 +374,7 @@ function BirthdayPage() {
 
       {/* LETTER */}
       <section className="relative z-10 px-6 py-24 max-w-3xl mx-auto">
-        <SectionTitle kicker="From the heart" title="A Letter For Hamza 💌" />
+        <SectionTitle kicker="From the heart" title="Happy Birthday Hamza 💌" />
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -384,11 +383,11 @@ function BirthdayPage() {
         >
           <div className="absolute -top-3 -left-3 text-6xl text-gold/40 font-display select-none">"</div>
           <div className="space-y-5 text-base md:text-lg leading-relaxed text-foreground/90">
-            <p className="font-display text-2xl">Hamza,</p>
-            <p>Tum un logon me se ho jo bina zyada effort ke logon ke chehron par smile le aate hain. Tumhari simplicity, tumhari honesty aur tumhara caring nature tumhari sab se khoobsurat qualities hain.</p>
-            <p>Main dua karti hoon ke tumhari zindagi me hamesha sukoon, khushi, kamyabi aur ache log rahen.</p>
-            <p>Har saal tum aur zyada mature, successful aur khush bano.</p>
-            <p>Tumhari har mehnat rang laye aur tumhara har sapna poora ho.</p>
+            <p className="font-display text-2xl">Chirkuth,</p>
+            <p>Happy Birthday to you! May this special day of yours be filled with joy, laughter, and unforgettable moments. As you step into another year of your incredible journey, I hope all your dreams and aspirations come true. May the year ahead bring you success, good health, and endless happiness. Keep shining bright and spreading your warmth to everyone around you. Enjoy every moment of your day — you truly deserve it! 🎂🎉</p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
             <p className="text-gold-gradient text-2xl pt-2" style={{ fontFamily: "var(--font-script)" }}>
               Happy Birthday Chotuu ❤️
             </p>
@@ -425,7 +424,7 @@ function BirthdayPage() {
       <section className="relative z-10 px-6 py-24 max-w-3xl mx-auto">
         <div className="text-center mb-10">
           <div className="text-4xl mb-3">🌙 ✨ ⭐</div>
-          <h2 className="text-4xl md:text-5xl font-medium text-gold-gradient">Mission Sadgi 💫</h2>
+          <h2 className="text-4xl md:text-5xl font-medium text-gold-gradient">Mission Sadgi 👀💫</h2>
         </div>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -437,9 +436,9 @@ function BirthdayPage() {
           <div className="absolute bottom-4 left-4 text-2xl shimmer" style={{ animationDelay: "1s" }}>🌙</div>
           <div className="absolute top-1/2 right-10 text-xl shimmer" style={{ animationDelay: "2s" }}>⭐</div>
           <div className="space-y-5 leading-relaxed text-base md:text-lg relative z-10">
-            <p>Hamza ne apni imagination me ek character create kiya hai jiska naam hai <span className="text-gold font-medium">'Sadgi'</span>.</p>
-            <p>Ek aisi larki jo simple ho, sincere ho, family-oriented ho aur dil ki achi ho.</p>
-            <p>Is birthday par dil se dua hai ke Hamza ko zindagi me wahi sukoon aur companionship mile jiski wo umeed rakhta hai.</p>
+            <p> </p>
+            <p>Bht sadgi sadgi hai demag hai so i wish aap li ye muraad pori hojaye but but but agr to mujhy baad me pta laga k dekh rakhi thi pehly se hi ebs btaya nh tha mujhy betaa khail khatam hai aap ka 🦾</p>
+            <p>I hope aap ko aap ki imagine ki hoi jesi larki mill jaye , hope for the best 😁</p>
             <p className="italic text-gold-soft">Aur agar kahin Sadgi already exist karti hai, to usay GPS signal mil jaye. 😂❤️</p>
           </div>
         </motion.div>
@@ -447,7 +446,7 @@ function BirthdayPage() {
 
       {/* QUALITIES */}
       <section className="relative z-10 px-6 py-24 max-w-6xl mx-auto">
-        <SectionTitle kicker="What we love" title="Things We Appreciate About Hamza" />
+        <SectionTitle kicker="What we love" title="Things I Appreciate About you Chotuu" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {qualities.map((q, i) => (
             <motion.div
@@ -498,7 +497,7 @@ function BirthdayPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="relative mb-10"
+              className={`relative mb-10 ${!t.date.trim() && !t.title.trim() ? "hidden" : ""}`}
             >
               <div className="absolute -left-[42px] md:-left-[58px] top-0 w-10 h-10 rounded-full glass flex items-center justify-center text-lg">
                 {t.icon}
@@ -522,7 +521,7 @@ function BirthdayPage() {
         >
           <Cake />
           <h2 className="mt-6 text-4xl md:text-6xl font-display text-gold-gradient">
-            Happy Birthday, Hamza. ❤️
+            Happy Birthday, Bawly ❤️
           </h2>
           <div className="gold-divider w-40 mx-auto my-8" />
           <p className="text-base md:text-lg leading-relaxed text-foreground/90 italic">
@@ -539,11 +538,11 @@ function BirthdayPage() {
             }}
             className="mt-10 inline-flex items-center gap-2 rounded-full px-8 py-4 bg-gradient-to-r from-gold to-gold-soft text-ink font-medium hover:scale-105 transition-transform shadow-xl"
           >
-            🎆 Celebrate Again
+            🎆 Happy Birthdayyyyy ❤️
           </button>
         </motion.div>
         <p className="mt-10 text-xs tracking-[0.4em] uppercase text-muted-foreground">
-          Made with ❤️ — for Hamza
+          {" "}
         </p>
       </section>
 
