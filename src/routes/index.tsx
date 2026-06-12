@@ -34,7 +34,7 @@ export const Route = createFileRoute("/")({
 
 const photos = [
   { src: img1.url, caption: "Khary to ese ho jese tumhari shadi hai 😂." },
-  { src: img7.url, caption: "paak Sar zameen sahd baad 😂." },
+  { src: img7.url, caption: "Paak Sar zameen sahd baad 😂." },
   { src: img4.url, caption: "The Akhroat 😁" },
   { src: img2.url, caption: "Beautyphul 🐵" },
   { src: img8.url, caption: "Pory k Pory 32 Dant hain 😁 " },
@@ -267,7 +267,7 @@ function BirthdayPage() {
           transition={{ delay: 0.2 }}
           className="text-sm tracking-[0.5em] uppercase text-gold mb-6"
         >
-          01 · 06 · 25
+          13· 06 · 2004
         </motion.p>
 
         <motion.div initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.3, type: "spring" }}>
