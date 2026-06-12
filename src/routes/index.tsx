@@ -316,7 +316,7 @@ function BirthdayPage() {
               ].map((c) => (
                 <div key={c.l} className="text-center min-w-14">
                   <div className="text-3xl md:text-4xl font-display font-semibold text-gold-gradient tabular-nums">
-                    {String(c.v).padStart(2, "0")}
+                    01
                   </div>
                   <div className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground mt-1">{c.l}</div>
                 </div>
