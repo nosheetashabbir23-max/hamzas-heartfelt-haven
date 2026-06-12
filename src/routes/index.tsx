@@ -267,7 +267,7 @@ function BirthdayPage() {
           transition={{ delay: 0.2 }}
           className="text-sm tracking-[0.5em] uppercase text-gold mb-6"
         >
-          13 · 06 · 01
+          01 · 06 · 01
         </motion.p>
 
         <motion.div initial={{ scale: 0.6, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ delay: 0.3, type: "spring" }}>
@@ -316,7 +316,7 @@ function BirthdayPage() {
               ].map((c) => (
                 <div key={c.l} className="text-center min-w-14">
                   <div className="text-3xl md:text-4xl font-display font-semibold text-gold-gradient tabular-nums">
-                    {String(c.v).padStart(2, "0")}
+                    01
                   </div>
                   <div className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground mt-1">{c.l}</div>
                 </div>
