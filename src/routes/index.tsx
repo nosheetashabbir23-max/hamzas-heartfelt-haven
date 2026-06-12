@@ -446,7 +446,7 @@ function BirthdayPage() {
 
       {/* QUALITIES */}
       <section className="relative z-10 px-6 py-24 max-w-6xl mx-auto">
-        <SectionTitle kicker="What we love" title="Things We Appreciate About Hamza" />
+        <SectionTitle kicker="What we love" title="Things I Appreciate About you Chotuu" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {qualities.map((q, i) => (
             <motion.div
