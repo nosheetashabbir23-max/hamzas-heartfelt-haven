@@ -436,9 +436,9 @@ function BirthdayPage() {
           <div className="absolute bottom-4 left-4 text-2xl shimmer" style={{ animationDelay: "1s" }}>🌙</div>
           <div className="absolute top-1/2 right-10 text-xl shimmer" style={{ animationDelay: "2s" }}>⭐</div>
           <div className="space-y-5 leading-relaxed text-base md:text-lg relative z-10">
-            <p>Hamza ne apni imagination me ek character create kiya hai jiska naam hai <span className="text-gold font-medium">'Sadgi'</span>.</p>
-            <p>Ek aisi larki jo simple ho, sincere ho, family-oriented ho aur dil ki achi ho.</p>
-            <p>Is birthday par dil se dua hai ke Hamza ko zindagi me wahi sukoon aur companionship mile jiski wo umeed rakhta hai.</p>
+            <p> </p>
+            <p>Bht sadgi sadgi hai demag hai so i wish aap li ye muraad pori hojaye but but but agr to mujhy baad me pta laga k dekh rakhi thi pehly se hi ebs btaya nh tha mujhy betaa khail khatam hai aap ka 🦾</p>
+            <p>I hope aap ko aap ki imagine ki hoi jesi larki mill jaye , hope for the best 😁</p>
             <p className="italic text-gold-soft">Aur agar kahin Sadgi already exist karti hai, to usay GPS signal mil jaye. 😂❤️</p>
           </div>
         </motion.div>
