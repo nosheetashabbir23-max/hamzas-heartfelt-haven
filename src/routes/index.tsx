@@ -39,7 +39,7 @@ const photos = [
   { src: img2.url, caption: "Beautyphul 🐵" },
   { src: img8.url, caption: "Pory k Pory 32 Dant hain 😁 " },
   { src: img6.url, caption: "Special bandy ny li hai akhir 👀" },
-  { src: img3.url, caption: "Seedhi kr lo gardan thak gaye hogy" },
+  { src: img3.url, caption: "Seedhi kr lo gardan thak gaye hogy 😬" },
   { src: img5.url, caption: "Ehm Ehm 👀 " },
 ];
 
@@ -56,7 +56,7 @@ const qualities = [
   { t: "Simple Personality", e: "🌿", d: "Show-off se door rehta hai , one of the good qualities " },
   { t: "Hardworking", e: "🚀", d: "Apne goals ke liye mehnat karta hai." },
   { t: "Respectful", e: "🌟", d: "Har kisi se achy se paitence se baat krty ho " },
-  { t: "Funny Moments", e: "😂", d: "Atleat mujhy sochna nh parta bolny se pehly tumary samny 😂" },
+  { t: "Funny Moments", e: "😂", d: "Atleast mujhy sochna nh parta bolny se pehly tumary samny 😂" },
 ];
 
 const wishes = [
@@ -71,7 +71,7 @@ const timeline = [
   { date: "FEB 2024- 13 JUNE 2026", title: "Almost dahi saal se janty hain ek dosry ko or ek dafa larai nh hoi real wali 😭 laromgi ab se feilding set h tumari putar 😏", icon: "✨" },
   { date: " ", title: " ", icon: "📚" },
   { date: " ", title: "We have a lot of memories together. i wish agy bh esi banti rahy hassi khushi 😂", icon: "🌟" },
-  { date: " ", title: "height ka flex krty ho , itu s ehok itu se koi baat nh jawo aish kro , birthday jee lo apni zindagi 😊", icon: "🎂" },
+  { date: " ", title: "Height ka flex krty ho , itu se hok itu se , koi baat nh jawo aish kro , birthday hai jee lo apni zindagi 😊", icon: "🎂" },
   { date: " ", title: "May Allah bless you with Success, happiness and maybe… Sadgi 👀❤", icon: "💫" },
 ];
 
@@ -437,7 +437,7 @@ function BirthdayPage() {
           <div className="absolute top-1/2 right-10 text-xl shimmer" style={{ animationDelay: "2s" }}>⭐</div>
           <div className="space-y-5 leading-relaxed text-base md:text-lg relative z-10">
             <p> </p>
-            <p>Bht sadgi sadgi hai demag hai so i wish aap li ye muraad pori hojaye but but but agr to mujhy baad me pta laga k dekh rakhi thi pehly se hi ebs btaya nh tha mujhy betaa khail khatam hai aap ka 🦾</p>
+            <p>Bht sadgi sadgi hai demag mein so i wish aap ki ye muraad pori hojaye but but but agr to mujhy baad me pta laga k dekh rakhi thi pehly se hi bs btaya nh tha mujhy betaa khail khatam hai aap ka 🦾</p>
             <p>I hope aap ko aap ki imagine ki hoi jesi larki mill jaye , hope for the best 😁</p>
             <p className="italic text-gold-soft">Aur agar kahin Sadgi already exist karti hai, to usay GPS signal mil jaye. 😂❤️</p>
           </div>
@@ -446,7 +446,7 @@ function BirthdayPage() {
 
       {/* QUALITIES */}
       <section className="relative z-10 px-6 py-24 max-w-6xl mx-auto">
-        <SectionTitle kicker="What we love" title="Things I Appreciate About you Chotuu" />
+        <SectionTitle kicker=" " title="Things I Appreciate About you Chotuu" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {qualities.map((q, i) => (
             <motion.div
